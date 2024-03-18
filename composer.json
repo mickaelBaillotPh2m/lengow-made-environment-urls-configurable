@@ -1,0 +1,24 @@
+{
+    "name": "ph2m/lengow-made-environment-urls-configurable",
+    "description": "Made Lengow environment-urls configurable",
+    "homepage": "https://github.com/PH2M/lengow-made-environment-urls-configurable",
+    "require": {
+        "lengow/module-connector": "^1.4"
+    },
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "PH2M",
+            "email": "contact@ph2m.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PH2M\\LengowEnvironmentUrlsConfigurable\\": ""
+        }
+    }
+}
