@@ -3,7 +3,7 @@
     "description": "Made Lengow environment-urls configurable",
     "homepage": "https://github.com/PH2M/lengow-made-environment-urls-configurable",
     "require": {
-        "lengow/module-connector": "^1.4"
+        "ext-curl": "*"
     },
     "type": "magento2-module",
     "license": "GPL-3.0",
