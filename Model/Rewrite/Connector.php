@@ -561,7 +561,7 @@ class Connector extends \Lengow\Connector\Model\Connector
         // get base url for a specific environment
         // Rewrite on
         // $url = self::LENGOW_API_URL . $api;
-        $url = $this->lengowConfig->getLengowApiUrl();
+        $url = $this->lengowConfig->getLengowApiUrl() . $api;
         // Rewrite off
 
         $opts[CURLOPT_CUSTOMREQUEST] = strtoupper($type);
