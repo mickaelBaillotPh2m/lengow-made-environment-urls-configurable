@@ -40,7 +40,7 @@ class Connector extends \Lengow\Connector\Model\Connector
      * @var string url of the Lengow API
      */
     // const LENGOW_API_URL = 'https://api.lengow.io';
-    private const LENGOW_API_URL = 'https://api.lengow.net';
+    public const LENGOW_API_URL = 'https://api.lengow.net';
 
     /* Lengow API routes */
     public const API_ACCESS_TOKEN = '/access/get_token';
